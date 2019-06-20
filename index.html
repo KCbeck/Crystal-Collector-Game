@@ -12,20 +12,22 @@
 <body class="body" style="margin-left:0px;">
 	<div class="header" style="height:100px">
 <!-- crystal initial tag -->
-		<img src="assets/images/Crystal Collector 327883167395865.png" style="height:99px; margin-left: 7%; margin-right:3%; background-color: black"; width="1033" height="130" alt="Collector">
+		<img id="collectorLogo" src="assets/images/Crystal Collector 327883167395865.png"  alt="Collector">
 	</div>
 
 <!-- The instructions tag	 -->
-	<div class="instructions">
+	<div class="instructions" style="height:60px; padding-top:15px;">
 		<h1 id="directions"  style="font-size: 1.27em;">At the beginning of the game you will be given a random number. You will then be given 4 seperate crystals which have their own internal random value. You will click on each crystal too add to the Final Total, if you get the right number you win, if not you lose.</h2>
 		
-		
+		<!-- instructions closing tag -->
 	</div>
-	<div class="numberToMatch" style="margin-left:5%; margin-right:5%; background-color: black"; width="1033" height="80">
+<!-- number match  -->
+	<div class="numberTo">
 		<h2 id="numberToGet">Number To Get:
 			<span id= "randomNumber"></span>
 		</h2>
 	</div>
+<!-- Wins and losses window -->
 	<div class="winsAndLosses">
 		<h2>Wins:
 			<span id= "numberWins"></span>
@@ -33,21 +35,27 @@
 			Losses: 
 			<span id= "numberLosses"></span>
 		</h2>
-	</div>
+		<!-- Closing Tag for wins and losses -->
+	</div> 
+	<!-- gems window -->
 	<div class="gems">
+		<!-- Four individual gems -->
 		<img src="assets/images/blue.jpg" class=gemImage id="one" alt="Blue crystal">
 		<img src="assets/images/green.jpg" class=gemImage id="two" alt="Green crystal">
 		<img src="assets/images/red.jpg" class=gemImage id= "three" alt="Red crystal">
 		<img src="assets/images/yellow.jpg" class=gemImage id= "four" alt="Yellow crystal">
+		<!-- gems window closing tag -->
 	</div>
+	<!-- user total window  -->
 	<div class="userTotal">
 		<h2>Your total score is:
 			<span id="finalTotal"></span>
 		</h2>
 	</div>
-	<div class="footer"><img src="https://images.cooltext.com/5301609.png" width="300" height="32" alt="coded by KC BECK 2019(C)" />
-
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<!-- Footer Logo for copyright -->
+	<div class="footer"><img src="https://images.cooltext.com/5301609.png" alt="coded by KC BECK 2019(C)" />
+<!-- script links -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>

@@ -15,9 +15,10 @@
 }
 .instructions{
 	width:90%;
+	height: 45%;
 	margin-left: 5%;
 	margin-right: 5%;
-	background-color: #2f050c;
+	background-color: Black;
 	color: white;
 }
 #numberToGet{
@@ -26,6 +27,9 @@
 	font-size: 28px;
 	padding-top: 5px;
 	padding-bottom:5px;
+}
+.numberTo{
+	margin-left:5%; margin-right:5%; background-color: black;
 }
 .winsAndLosses{
 	color: white;
@@ -83,16 +87,29 @@ border-width:3px;
 	font-size: 48px;
 }
 
-.header, .numberToMatch, .instructions, .winsAndLosses, .userTotal, .gems {
+.header, .numberTo, .instructions, .winsAndLosses, .userTotal, .gems {
 	
 	border-color: grey;
 	border-width:1.5px;
 	border-style: solid;
 
 }
-.numberToMatch, .instructions, .winsAndLosses, .userTotal, .gems {
+.numberTo, .instructions, .winsAndLosses, .userTotal, .gems {
 	margin-top: 10px;
 }
 .footer{
 	margin-left: 5%;
+	margin-right: 62%;
+	margin-top: 10px;
+	width: 350px;
+	height:45px;
+}
+#collectorLogo{
+	height:99px;
+	margin-left: 7%;
+	margin-right:3%;
+	background-color: black;
+	width: 90%;
+	margin-left:5%;
+	margin-right:5%;
 }
